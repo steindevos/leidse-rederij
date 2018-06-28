@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script type="text/javascript" src="https://code.jquery.com/jquery.min.js"></script>
+
+    <style>
+        .title {
+            /*background-image: url("floating-dinner.jpg");*/
+            Height: 100vh;
+            Width: 100vw;
+            background-size: cover;
+
+        }
+    </style>
+</head>
+
+<body>
+    <section id="titelpagina">
+        <div class="title">
+
+        </div>
+    </section>
+    <script>
+        $(function() {
+            var body = $('.title');
+            var backgrounds = new Array(
+                'url(floating-dinner.jpg)',
+                'url(8308.jpeg)',
+                'url(4025.jpeg)'
+            );
+            var current = 0;
+            function nextBackground() {
+                body.css(
+                    'background-image',
+                    backgrounds[current = ++current % backgrounds.length]
+                );
+
+                setTimeout(nextBackground, 10000);
+            }
+            setTimeout(nextBackground, 10000);
+            body.css('background-image', backgrounds[0]);
+        });
+    </script>
+</body>
+
+</html>
