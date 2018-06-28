@@ -1,5 +1,12 @@
 
+/*----------------------------------------------------------------------------title */
+   .title {
+            /*background-image: url("floating-dinner.jpg");*/
+            Height: 100vh;
+            Width: 100vw;
+            background-size: cover;
 
+        }
 
 
 
