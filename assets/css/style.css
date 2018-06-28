@@ -1,16 +1,61 @@
-
 /*----------------------------------------------------------------------------title */
-   .title {
-            /*background-image: url("floating-dinner.jpg");*/
-            Height: 100vh;
-            Width: 100vw;
-            background-size: cover;
 
-        }
+.title {
+    /*background-image: url("assets/images/floating-dinner.jpg");*/
+    Height: 100vh;
+    Width: 100vw;
+    background-size: cover;
+}
 
+.header-section {
+    margin-bottom: 50px;
+}
+
+
+/*-----------------------------------------------------------------------------tours section*/
+
+.tour-section {
+    border-bottom: dotted 1px black;
+    margin-bottom: 30px
+}
+
+.three-tours {
+    margin-bottom: 20px;
+}
+
+.three-tours-img {
+    max-width: 250px;
+    width: 200px;
+    height: 200px;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50%; 
+}
+
+#grachten {
+    background-image: url("../images/leidse-grachten.jpeg");
+}
+
+#kaag {
+    background-image: url("../images/kaag.jpg");
+}
+
+#kasteel {
+    background-image: url("../images/kasteel.JPG")
+}
 
 
 /*---------------------------------------------------------------------------contact-section*/
+
+.contact-information {
+    margin-bottom: 50px
+}
+
+.contact-info {
+    margin-left: 50px;
+}
+
 .personal-info-item {
     margin-bottom: 20px;
     display: block;
@@ -47,36 +92,37 @@
 }
 
 .section-heading {
-    text-transform: uppercase; 
+    text-transform: uppercase;
     font-size: 4rem;
 }
 
 .contact-section-header {
-    font-family: sans-serif; 
-    text-transform: uppercase; 
+    font-family: sans-serif;
+    text-transform: uppercase;
 }
 
 .contact-section-contact-information {
-    font-family: sans-serif; 
-    
+    font-family: sans-serif;
+
 }
 
 #map {
-    min-height: 360px; 
+    min-height: 360px;
 }
 
 
 
 
 /*--------------------------------------------------------------------------------footer*/
+
 footer {
-    min-height: 200px; 
+    min-height: 200px;
     background-color: blue;
 }
 
 .footer-header {
     color: white;
-    text-transform: uppercase; 
+    text-transform: uppercase;
     font-size: 3rem;
 }
 

@@ -1,9 +1,9 @@
    $(function() {
             var body = $('.title');
             var backgrounds = new Array(
-                'url(floating-dinner.jpg)',
-                'url(8308.jpeg)',
-                'url(4025.jpeg)'
+                'url(assets/images/floating-dinner.jpg)',
+                'url(assets/images/8308.jpeg)',
+                'url(assets/images/4025.jpeg)'
             );
             var current = 0;
 
