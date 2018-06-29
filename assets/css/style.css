@@ -1,3 +1,53 @@
+h2{
+    font-family: 'Mada', sans-serif;
+    color: darkgrey;
+    font-size:4rem;
+    font-weight: bold;
+    
+}
+
+
+
+/*----------------------------------------------------------------------------title */
+
+        .completeLogo {
+
+            position:relative 
+                z-index: 100;
+                top: 60px;
+
+            }
+
+            .logoText {
+
+                font-family: 'Leckerli One', cursive;
+                font-size: 4em;
+                color: #bc9507;
+                width: 300px;
+                text-align: center;
+                text-shadow: black -2px 2px;
+                margin-left: auto;
+                margin-right: auto;
+                transform: rotate(-10deg);
+            }
+
+            .logoStrapline {
+                position: relative;
+                z-index: -10;
+                top: -9px;
+                font-family: sans-serif;
+                font-size: 1em;
+                color: white;
+                width: 200px;
+                height: 20px;
+                letter-spacing: 5px;
+                text-align: center;
+                background-color: black;
+                margin-left: auto;
+                margin-right: auto;
+
+            }
+
 /*----------------------------------------------------------------------------title */
 
 .title {
