@@ -1,0 +1,151 @@
+/*----------------------------------------------------------------------------title */
+
+.title {
+    /*background-image: url("assets/images/floating-dinner.jpg");*/
+    Height: 100vh;
+    Width: 100vw;
+    background-size: cover;
+}
+
+.header-section {
+    margin-bottom: 50px;
+}
+
+
+/*-----------------------------------------------------------------------------tours section*/
+
+.tour-section {
+    border-bottom: dotted 1px black;
+    margin-bottom: 30px
+}
+
+.three-tours {
+    margin-bottom: 20px;
+}
+
+.three-tours-img {
+    max-width: 250px;
+    width: 200px;
+    height: 200px;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50%; 
+}
+
+#grachten {
+    background-image: url("../images/leidse-grachten.jpeg");
+}
+
+#kaag {
+    background-image: url("../images/kaag.jpg");
+}
+
+#kasteel {
+    background-image: url("../images/kasteel.JPG")
+}
+
+
+/*---------------------------------------------------------------------------contact-section*/
+
+.contact-information {
+    margin-bottom: 50px
+}
+
+.contact-info {
+    margin-left: 50px;
+}
+
+.personal-info-item {
+    margin-bottom: 20px;
+    display: block;
+    clear: both;
+    font-size: 2rem;
+}
+
+.personal-info-item .key,
+.personal-info-item .value {
+    padding-right: 8px;
+}
+
+.personal-info-item .key p,
+.personal-info-item .value p {
+    margin: 0;
+}
+
+.personal-info-item .key {
+    display: inline-block;
+    width: 30%;
+    margin-right: 21px;
+    padding-top: 2px;
+    vertical-align: top;
+}
+
+.personal-info-item .key p {
+    font-weight: 700;
+}
+
+.personal-info-item .value {
+    display: inline-block;
+    position: relative;
+    width: 60%;
+}
+
+.section-heading {
+    text-transform: uppercase;
+    font-size: 4rem;
+}
+
+.contact-section-header {
+    font-family: sans-serif;
+    text-transform: uppercase;
+}
+
+.contact-section-contact-information {
+    font-family: sans-serif;
+
+}
+
+#map {
+    min-height: 360px;
+}
+
+
+
+
+/*--------------------------------------------------------------------------------footer*/
+
+footer {
+    min-height: 200px;
+    background-color: blue;
+}
+
+.footer-header {
+    color: white;
+    text-transform: uppercase;
+    font-size: 3rem;
+}
+
+.social-links {
+    padding-bottom: 15px;
+}
+
+.social-links li a i {
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 13px;
+    line-height: 7px;
+    text-align: center;
+    color: #fafafa;
+    background: #8f8f8f;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.social-links li a i:hover {
+    background: #e84610;
+}
