@@ -1,15 +1,26 @@
-/*----------------------------------------------------------------------------title */
+/*----------------------------------------------------------------------------title section*/
 
 .title {
     /*background-image: url("assets/images/floating-dinner.jpg");*/
-    Height: 100vh;
-    Width: 100vw;
+    Height: 100vh; 
     background-size: cover;
 }
 
 .header-section {
-    margin-bottom: 50px;
+    margin-bottom: 0px;
 }
+
+
+/*------------------------------------------------------------------------------navbar-section*/
+.navbar-section {
+    margin-top: 0px;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: #fafafa;
+    font-size: 1.5rem;
+}
+
 
 
 /*-----------------------------------------------------------------------------tours section*/
